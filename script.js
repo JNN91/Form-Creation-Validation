@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             form.reset(); // Optional: reset form after successful registration
         } else {
             feedbackDiv.innerHTML = messages.join("<br>");
-            feedbackDiv.style.color = "#d8000c";
+            feedbackDiv.style.color = "#dc3545";
             feedbackDiv.style.backgroundColor = "#ffbaba";
         }
     });
